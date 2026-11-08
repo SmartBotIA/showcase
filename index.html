@@ -22,7 +22,17 @@
       align-items: center;
       border-bottom: 1px solid #252d43;
     }
-    .logo { font-size: 25px; font-weight: bold; color: #65c7ff; }
+    .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 65px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
     nav a { color: #dce5f5; text-decoration: none; margin-left: 24px; }
     .hero { padding: 110px 8% 90px; text-align: center; }
     .tag { color: #65c7ff; text-transform: uppercase; letter-spacing: 3px; }
@@ -94,16 +104,6 @@
       <p>We believe AI should do more than answer questions. It should empower people, make knowledge more accessible and turn complex challenges into practical opportunities.</p>
     </section>
   </main>
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 65px;
-  width: auto;
-  display: block;
-}
   <footer id="contact">
     <p><strong>SmartBotIA</strong> — Intelligence designed to help people move forward.</p>
     <p>Discover our project on <a href="https://github.com/SmartBotIA/showcase">GitHub</a></p>
